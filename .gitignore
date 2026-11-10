@@ -1,0 +1,9 @@
+# Build output; build it from source with build.cmd
+*.exe
+*.pdb
+
+# Personal data written at runtime: per-second logs, incident snapshots
+# (which include window titles and running apps) and generated reports
+logs/
+incidents/
+reports/
